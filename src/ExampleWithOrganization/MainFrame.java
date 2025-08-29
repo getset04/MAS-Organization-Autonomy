@@ -1,0 +1,685 @@
+package ExampleWithOrganization;
+
+import jade.core.Profile;
+import jade.core.ProfileImpl;
+import jade.core.Runtime;
+import jade.wrapper.AgentContainer;
+import jade.wrapper.AgentController;
+import jade.wrapper.StaleProxyException;
+
+import java.util.LinkedList;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+
+public class MainFrame extends javax.swing.JFrame {
+
+	public static LinkedList<Teacher> teacherList = new LinkedList<Teacher>();
+	public static LinkedList<DepartmentHead> headList = new LinkedList<DepartmentHead>();
+	static boolean flag = false;
+	static AgentTag tag;
+	AgentContainer container;
+	
+	LinkedList<LinkedList<MyEvent>> allEvents;
+    LinkedList<String> listeDesGroupes;
+    LinkedList<String> listeDesServices;
+    LinkedList<String> listeDesGroupesAgent;
+    LinkedList<String> listeDesServicesAgent;
+    /**
+     * Creates new form MainFrame
+     */
+    public MainFrame() {
+        initComponents();
+        setTitle("Example With Organization");
+        btnDepartmentHead.setToolTipText("Role is : Departement Head");
+        btnTeacher.setToolTipText("Role is : Teacher");
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        createContainer();
+        allEvents = new LinkedList<LinkedList<MyEvent>>();
+        listeDesGroupes = new LinkedList<String>();
+        listeDesServices = new LinkedList<String>();
+        listeDesGroupesAgent = new LinkedList<String>();
+        listeDesServicesAgent = new LinkedList<String>();
+        setAllComponentsEnabled(panelPerson, false);
+        setAllComponentsEnabled(panelEvent, false);
+        refreshTeacherPart(false);
+    }
+
+    void refreshMainFrame(){
+    	Thread t = new Thread(){
+    		public void run(){
+    			while(!flag){
+    				
+    			}
+    			if(flag){
+					flag = false;
+					allTags.add(tag);
+				}
+    		}
+        };
+        t.start();
+    }
+    
+    public static void addTeacher(Teacher t){
+    	teacherList.add(t);
+    	tag = t.getAgentTag();
+    	flag = true;
+    }
+    
+    public static void addDepartmentHead(DepartmentHead d){
+    	headList.add(d);
+    	tag = d.getAgentTag();
+    	flag = true;
+    }
+    
+	void createContainer(){
+		Runtime rt  = Runtime.instance();
+		Profile p = new ProfileImpl();
+		p.setParameter(Profile.MAIN_HOST, "localhost");
+		container = rt.createAgentContainer(p);
+	}
+	
+	LinkedList<MyEvent> getCorrespondingEventList(String group){
+		int index = listeDesGroupes.indexOf(group);
+		return allEvents.get(index);
+	}
+	
+	void createAgent(){
+		try {
+			String paquet = "ExampleWithOrganization";
+			String classe = "";
+			Object[] obj = new Object[2];
+			if(btnTeacher.isSelected()){
+				obj[0] = listeDesGroupesAgent.clone();
+				obj[1] = listeDesServicesAgent.clone();
+				classe = "Teacher";
+			}
+			else{
+				String group = comboPersonGroups.getSelectedItem().toString();
+				obj[0] = group;
+				obj[1] = getCorrespondingEventList(group);
+				classe = "DepartmentHead";
+			}
+			AgentController agent = container.createNewAgent(txtPersonName.getText(), paquet+"."+classe, obj);
+			agent.start();
+		} catch (StaleProxyException e) {
+		}
+	}
+    
+    boolean isAlreadyExist(LinkedList<String> list,String element){
+        for (int i = 0; i < list.size(); i++) {
+            if(list.get(i).equals(element)) return true;
+        }
+        return false;
+    }
+    
+    void refreshGroupsComboBox(){
+        comboPersonAllGroups.removeAllItems();
+        comboEventGroup.removeAllItems();
+        for (int i = 0; i < listeDesGroupes.size(); i++) {
+            String string = listeDesGroupes.get(i);
+            comboPersonAllGroups.addItem(string);
+            comboEventGroup.addItem(string);
+        }
+    }
+    
+    void refreshServicesComboBox(){
+        comboPersonAllServices.removeAllItems();
+        comboEventService.removeAllItems();
+        for (int i = 0; i < listeDesServices.size(); i++) {
+            String string = listeDesServices.get(i);
+            comboPersonAllServices.addItem(string);
+            comboEventService.addItem(string);
+        }
+    }
+    
+    void setAllComponentsEnabled(JPanel panel,boolean flag){
+        for (int i = 0; i < panel.getComponentCount(); i++) {
+            panel.getComponent(i).setEnabled(flag);
+        }
+        if(panel==panelPerson && flag){
+        	btnDepartmentHead.setSelected(true);
+        	refreshTeacherPart(false);
+        }
+    }   
+    
+    void setCorrespendingTiming(){
+        int day = mainTable.getSelectedColumn() - 1;
+        int time = mainTable.getSelectedRow();
+        comboDays.setSelectedIndex(day);
+        comboTiming.setSelectedIndex(time);
+    }
+    
+    void refreshTeacherPart(boolean b){
+        comboPersonAllServices.setEnabled(b);
+        comboPersonServices.setEnabled(b);
+        btnAddPersonService.setEnabled(b);
+    }
+    
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        allTags = new javax.swing.JTabbedPane();
+        mainPanel = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        mainTable = new javax.swing.JTable();
+        panelEvent = new javax.swing.JPanel();
+        btnAddEvent = new javax.swing.JButton();
+        comboDays = new javax.swing.JComboBox();
+        jLabel2 = new javax.swing.JLabel();
+        comboTiming = new javax.swing.JComboBox();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        comboEventGroup = new javax.swing.JComboBox();
+        jLabel6 = new javax.swing.JLabel();
+        comboEventService = new javax.swing.JComboBox();
+        panelPerson = new javax.swing.JPanel();
+        btnAddPerson = new javax.swing.JButton();
+        txtPersonName = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        btnTeacher = new javax.swing.JRadioButton();
+        btnDepartmentHead = new javax.swing.JRadioButton();
+        comboPersonAllGroups = new javax.swing.JComboBox();
+        comboPersonAllServices = new javax.swing.JComboBox();
+        comboPersonServices = new javax.swing.JComboBox();
+        comboPersonGroups = new javax.swing.JComboBox();
+        btnAddPersonGroup = new javax.swing.JButton();
+        btnAddPersonService = new javax.swing.JButton();
+        panelGroup = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        btnAddGroup = new javax.swing.JButton();
+        txtGroup = new javax.swing.JTextField();
+        panelService = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        txtService = new javax.swing.JTextField();
+        btnAddService = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        mainTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"08:00 - 09:00", null, null, null, null, null},
+                {"09:00 - 10:00", null, null, null, null, null},
+                {"10:00 - 11:00", null, null, null, null, null},
+                {"11:00 - 12:00", null, null, null, null, null},
+                {"12:00 - 13:00", null, null, null, null, null},
+                {"13:00 - 14:00", null, null, null, null, null},
+                {"14:00 - 15:00", null, null, null, null, null},
+                {"15:00 - 16:00", null, null, null, null, null}
+            },
+            new String [] {
+                "Timing", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"
+            }
+        ));
+        mainTable.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                mainTableMouseClicked(evt);
+            }
+        });
+        jScrollPane1.setViewportView(mainTable);
+
+        panelEvent.setBorder(javax.swing.BorderFactory.createTitledBorder("  Create New Event  "));
+
+        btnAddEvent.setText("add Event");
+        btnAddEvent.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddEventActionPerformed(evt);
+            }
+        });
+
+        comboDays.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday" }));
+
+        jLabel2.setText("Select Timing :");
+
+        comboTiming.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "08:00 - 09:00", "09:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00", "12:00 - 13:00", "13:00 - 14:00", "14:00 - 15:00", "15:00 - 16:00" }));
+
+        jLabel1.setText("Select Day :");
+
+        jLabel5.setText("Select Group :");
+
+        jLabel6.setText("Select Service :");
+
+        javax.swing.GroupLayout panelEventLayout = new javax.swing.GroupLayout(panelEvent);
+        panelEvent.setLayout(panelEventLayout);
+        panelEventLayout.setHorizontalGroup(
+            panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEventLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel6))
+                .addGap(18, 18, 18)
+                .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(comboEventService, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(comboDays, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(comboTiming, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAddEvent, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(comboEventGroup, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        panelEventLayout.setVerticalGroup(
+            panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEventLayout.createSequentialGroup()
+                .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(comboDays, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(comboTiming, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(comboEventGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelEventLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(comboEventService, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnAddEvent)
+                .addContainerGap())
+        );
+
+        panelPerson.setBorder(javax.swing.BorderFactory.createTitledBorder("  Create New Person  "));
+
+        btnAddPerson.setText("add Person");
+        btnAddPerson.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddPersonActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setText("Person Name :");
+
+        buttonGroup1.add(btnTeacher);
+        btnTeacher.setText("Teacher");
+        btnTeacher.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTeacherActionPerformed(evt);
+            }
+        });
+
+        buttonGroup1.add(btnDepartmentHead);
+        btnDepartmentHead.setSelected(true);
+        btnDepartmentHead.setText("Department Head");
+        btnDepartmentHead.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDepartmentHeadActionPerformed(evt);
+            }
+        });
+
+        comboPersonAllGroups.setToolTipText("All available groups");
+
+        comboPersonAllServices.setToolTipText("All available services");
+
+        comboPersonServices.setToolTipText("Agent services");
+
+        comboPersonGroups.setToolTipText("Agent groups");
+
+        btnAddPersonGroup.setText("+");
+        btnAddPersonGroup.setToolTipText("Add group");
+        btnAddPersonGroup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddPersonGroupActionPerformed(evt);
+            }
+        });
+
+        btnAddPersonService.setText("+");
+        btnAddPersonService.setToolTipText("Add service");
+        btnAddPersonService.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddPersonServiceActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout panelPersonLayout = new javax.swing.GroupLayout(panelPerson);
+        panelPerson.setLayout(panelPersonLayout);
+        panelPersonLayout.setHorizontalGroup(
+            panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelPersonLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelPersonLayout.createSequentialGroup()
+                        .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelPersonLayout.createSequentialGroup()
+                                .addComponent(comboPersonAllGroups, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnAddPersonGroup))
+                            .addComponent(jLabel3)
+                            .addGroup(panelPersonLayout.createSequentialGroup()
+                                .addComponent(comboPersonAllServices, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnAddPersonService)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtPersonName, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(comboPersonGroups, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(comboPersonServices, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(panelPersonLayout.createSequentialGroup()
+                        .addComponent(btnDepartmentHead)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(panelPersonLayout.createSequentialGroup()
+                        .addComponent(btnTeacher)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnAddPerson)))
+                .addContainerGap())
+        );
+
+        panelPersonLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btnAddPerson, txtPersonName});
+
+        panelPersonLayout.setVerticalGroup(
+            panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelPersonLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtPersonName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(comboPersonGroups, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(comboPersonAllGroups, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAddPersonGroup))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(comboPersonServices, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(comboPersonAllServices, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAddPersonService))
+                .addGap(6, 6, 6)
+                .addComponent(btnDepartmentHead)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelPersonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnTeacher)
+                    .addComponent(btnAddPerson))
+                .addGap(0, 8, Short.MAX_VALUE))
+        );
+
+        panelGroup.setBorder(javax.swing.BorderFactory.createTitledBorder("  Create New Group  "));
+
+        jLabel4.setText("Name :");
+
+        btnAddGroup.setText("add Group");
+        btnAddGroup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddGroupActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout panelGroupLayout = new javax.swing.GroupLayout(panelGroup);
+        panelGroup.setLayout(panelGroupLayout);
+        panelGroupLayout.setHorizontalGroup(
+            panelGroupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelGroupLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelGroupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelGroupLayout.createSequentialGroup()
+                        .addComponent(jLabel4)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtGroup))
+                    .addComponent(btnAddGroup, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        panelGroupLayout.setVerticalGroup(
+            panelGroupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelGroupLayout.createSequentialGroup()
+                .addGroup(panelGroupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(txtGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(btnAddGroup)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        panelService.setBorder(javax.swing.BorderFactory.createTitledBorder("  Create New Service  "));
+
+        jLabel7.setText("Name :");
+
+        btnAddService.setText("add Service");
+        btnAddService.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddServiceActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout panelServiceLayout = new javax.swing.GroupLayout(panelService);
+        panelService.setLayout(panelServiceLayout);
+        panelServiceLayout.setHorizontalGroup(
+            panelServiceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelServiceLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelServiceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnAddService, javax.swing.GroupLayout.DEFAULT_SIZE, 135, Short.MAX_VALUE)
+                    .addGroup(panelServiceLayout.createSequentialGroup()
+                        .addComponent(jLabel7)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtService)))
+                .addContainerGap())
+        );
+        panelServiceLayout.setVerticalGroup(
+            panelServiceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelServiceLayout.createSequentialGroup()
+                .addGroup(panelServiceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtService, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7))
+                .addGap(18, 18, 18)
+                .addComponent(btnAddService))
+        );
+
+        javax.swing.GroupLayout mainPanelLayout = new javax.swing.GroupLayout(mainPanel);
+        mainPanel.setLayout(mainPanelLayout);
+        mainPanelLayout.setHorizontalGroup(
+            mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane1)
+                    .addGroup(mainPanelLayout.createSequentialGroup()
+                        .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(panelGroup, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(panelService, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(panelPerson, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(panelEvent, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        mainPanelLayout.setVerticalGroup(
+            mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(panelPerson, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(mainPanelLayout.createSequentialGroup()
+                        .addComponent(panelGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(panelService, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(panelEvent, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        allTags.addTab("Main", mainPanel);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(allTags)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(allTags)
+        );
+
+        pack();
+    }// </editor-fold>                        
+
+    private void mainTableMouseClicked(java.awt.event.MouseEvent evt) {                                       
+        setCorrespendingTiming();
+    }                                      
+
+    private void btnAddPersonActionPerformed(java.awt.event.ActionEvent evt) {                                             
+        // 5
+    	createAgent();
+    	txtPersonName.setText("");
+    	txtGroup.setText("");
+    	listeDesGroupesAgent.clear();
+    	comboPersonGroups.removeAllItems();
+    	comboPersonServices.removeAllItems();
+    	listeDesServicesAgent.clear();
+    	refreshMainFrame();
+    }                                            
+
+    private void btnAddEventActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        // 6
+    	int day = comboDays.getSelectedIndex();
+        int time = comboTiming.getSelectedIndex();
+        String group = comboEventGroup.getSelectedItem().toString();
+        String service = comboEventService.getSelectedItem().toString();
+        MyEvent e = new MyEvent(time, day,group,service);
+        getCorrespondingEventList(group).add(e);
+    }                                           
+
+    private void btnAddGroupActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        // 1
+        String group = txtGroup.getText();
+        txtGroup.setText("");
+        if(isAlreadyExist(listeDesGroupes, group)){
+            JOptionPane.showMessageDialog(null, group + " group is already exist.");
+        }
+        else{
+            listeDesGroupes.add(group);
+            allEvents.add(new LinkedList<MyEvent>());
+            refreshGroupsComboBox();
+        }
+        if(listeDesGroupes.size()>0 && listeDesServices.size()>0){
+        	setAllComponentsEnabled(panelPerson, true);
+            setAllComponentsEnabled(panelEvent, true);
+        }
+    }                                           
+
+    private void btnAddPersonGroupActionPerformed(java.awt.event.ActionEvent evt) {                                                  
+        // 3
+        String string = comboPersonAllGroups.getSelectedItem().toString();
+        if(!isAlreadyExist(listeDesGroupesAgent, string)){
+            listeDesGroupesAgent.add(string);
+            comboPersonGroups.addItem(string);
+        }
+    }                                                 
+
+    private void btnAddPersonServiceActionPerformed(java.awt.event.ActionEvent evt) {                                                    
+        // 4
+        String string = comboPersonAllServices.getSelectedItem().toString();
+        if(!isAlreadyExist(listeDesServicesAgent, string)){
+            listeDesServicesAgent.add(string);
+            comboPersonServices.addItem(string);
+        }
+    }                                                   
+
+    private void btnAddServiceActionPerformed(java.awt.event.ActionEvent evt) {                                              
+        // 2
+        String service = txtService.getText();
+        txtService.setText("");
+        if(isAlreadyExist(listeDesServices, service)){
+            JOptionPane.showMessageDialog(null, service + " service is already exist.");
+        }
+        else{
+            listeDesServices.add(service);
+            refreshServicesComboBox();
+        }
+        if(listeDesGroupes.size()>0 && listeDesServices.size()>0){
+        	setAllComponentsEnabled(panelPerson, true);
+            setAllComponentsEnabled(panelEvent, true);
+        }
+    }                                             
+
+    private void btnDepartmentHeadActionPerformed(java.awt.event.ActionEvent evt) {                                                  
+    	refreshTeacherPart(false);
+    }                                                 
+
+    private void btnTeacherActionPerformed(java.awt.event.ActionEvent evt) {                                           
+    	refreshTeacherPart(true);
+    }                                          
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new MainFrame().setVisible(true);
+            }
+        });
+    }
+    // Variables declaration - do not modify                     
+    private javax.swing.JTabbedPane allTags;
+    private javax.swing.JButton btnAddEvent;
+    private javax.swing.JButton btnAddGroup;
+    private javax.swing.JButton btnAddPerson;
+    private javax.swing.JButton btnAddPersonGroup;
+    private javax.swing.JButton btnAddPersonService;
+    private javax.swing.JButton btnAddService;
+    private javax.swing.JRadioButton btnDepartmentHead;
+    private javax.swing.JRadioButton btnTeacher;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JComboBox comboDays;
+    private javax.swing.JComboBox comboEventGroup;
+    private javax.swing.JComboBox comboEventService;
+    private javax.swing.JComboBox comboPersonAllGroups;
+    private javax.swing.JComboBox comboPersonAllServices;
+    private javax.swing.JComboBox comboPersonGroups;
+    private javax.swing.JComboBox comboPersonServices;
+    private javax.swing.JComboBox comboTiming;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JPanel mainPanel;
+    private javax.swing.JTable mainTable;
+    private javax.swing.JPanel panelEvent;
+    private javax.swing.JPanel panelGroup;
+    private javax.swing.JPanel panelPerson;
+    private javax.swing.JPanel panelService;
+    private javax.swing.JTextField txtGroup;
+    private javax.swing.JTextField txtPersonName;
+    private javax.swing.JTextField txtService;
+    // End of variables declaration                   
+}

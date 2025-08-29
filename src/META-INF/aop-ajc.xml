@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+	<aspects>
+		<aspect name="aspects.SetupAspect"/>
+		<aspect name="aspects.SendAspect"/>
+		<aspect name="aspects.SearchAspect"/>
+		<aspect name="aspects.RegisterAspect"/>
+		<aspect name="aspects.ReceiveAspect"/>
+		<aspect name="aspects.OnTickAspect"/>
+		<aspect name="aspects.MainAspect"/>
+		<aspect name="aspects.DoneAspect"/>
+		<aspect name="aspects.DeregisterAspect"/>
+		<aspect name="aspects.BehaviourAspect"/>
+		<aspect name="aspects.ActionAspect"/>
+	</aspects>
+</aspectj>
