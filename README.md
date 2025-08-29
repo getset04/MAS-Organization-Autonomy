@@ -34,20 +34,20 @@ Findings demonstrate that organizational aspects reduce communication load while
 This repository provides the source code, metrics, and case study results for reproducibility and further research.
 
 📂 Repository Structure
-├── .settings/                   # Project-specific settings (IDE configuration)  
-├── bin/                         # Compiled binaries / class files  
-├── src/                         # Source code of the project  
-│   ├── aspects/                 # Aspect-oriented modules (cross-cutting concerns)  
-│   ├── ExampleWithOrganization/    # Case study implementation with organizational aspects  
-│   ├── ExampleWithoutOrganization/ # Case study implementation without organizational aspects  
-│   ├── META-INF/                # Metadata and configuration files  
-│   ├── statique/                # Static metrics implementation  
-│   └── tools/                   # Dynamic metrics implementation  
-├── .classpath                   # Eclipse classpath configuration file  
-├── .project                     # Eclipse project configuration file  
-├── APDescription.txt            # Description file for the Agent Platform  
-├── MTPs-Main-Container.txt      # Configuration file for Main Container and MTPs  
-├── rapport.txt                  # Report/documentation related to the project  
+├── .settings/                     # Project-specific settings (IDE configuration)  
+├── bin/                           # Compiled binaries / class files  
+├── src/                           # Source code of the project  
+│   ├── aspects/                   # Aspect-oriented modules (cross-cutting concerns)  
+│   ├── ExampleWithOrganization/      # Case study implementation with organizational aspects  
+│   ├── ExampleWithoutOrganization/   # Case study implementation without organizational aspects  
+│   ├── META-INF/                  # Metadata and configuration files  
+│   ├── statique/                  # Static metrics implementation  
+│   └── tools/                     # Dynamic metrics implementation  
+├── .classpath                     # Eclipse classpath configuration file  
+├── .project                       # Eclipse project configuration file  
+├── APDescription.txt              # Description file for the Agent Platform  
+├── MTPs-Main-Container.txt        # Configuration file for Main Container and MTPs  
+├── rapport.txt                    # Report/documentation related to the project  
 
 🚀 Getting Started
 1. Clone the repository
