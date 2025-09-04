@@ -1,400 +1,562 @@
 Event type : main ; Time : 0
-Event type : setup ; Time : 105456 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead
-Event type : addBehaviour ; Time : 105487 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : addBehaviour ; Time : 105487 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 105503 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 108513 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 114484 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 118946 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 123613 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 128477 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 133762 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 137318 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 142619 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 147498 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 151862 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 156861 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 162431 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 165475 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 169946 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 174387 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 178557 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 183326 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 188446 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 191910 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 197491 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 200547 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 204494 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 209100 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 213771 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 217732 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 221639 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 226382 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 230210 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : setup ; Time : 232675 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher
-Event type : addBehaviour ; Time : 232690 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherSignWithDepartmentHead ; Behaviour class : ExampleWithOrganization.Teacher$TeacherSignWithDepartmentHead
-Event type : addBehaviour ; Time : 232706 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : action ; Time : 232706 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherSignWithDepartmentHead ; Behaviour class : ExampleWithOrganization.Teacher$TeacherSignWithDepartmentHead
-Event type : send ; Time : 232706 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : action ; Time : 232706 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : action ; Time : 232722 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 232737 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : deregister ; Time : 232753 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead
-Event type : register ; Time : 232925 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Registerd services : ASD , SYSTEME , 
-Event type : action ; Time : 232957 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 235250 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 240306 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 245030 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 248134 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 252202 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 255742 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 261061 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 265227 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 270717 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 276563 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 280079 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 284369 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 289121 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 292288 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 296596 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 301492 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 306278 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 312277 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 318288 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 321730 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 325372 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 330389 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 333584 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 336793 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 339820 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 344402 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 348603 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 352395 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 355830 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 360559 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : setup ; Time : 363580 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead
-Event type : addBehaviour ; Time : 363595 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : addBehaviour ; Time : 363595 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 363595 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 363658 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 366600 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 367447 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 369839 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 370639 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 373675 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 375317 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : setup ; Time : 375450 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher
-Event type : addBehaviour ; Time : 375461 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherSignWithDepartmentHead ; Behaviour class : ExampleWithOrganization.Teacher$TeacherSignWithDepartmentHead
-Event type : addBehaviour ; Time : 375462 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : action ; Time : 375462 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherSignWithDepartmentHead ; Behaviour class : ExampleWithOrganization.Teacher$TeacherSignWithDepartmentHead
-Event type : send ; Time : 375462 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : action ; Time : 375464 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : action ; Time : 375501 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 375501 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : deregister ; Time : 375502 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead
-Event type : register ; Time : 375503 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Registerd services : Algebre , Proba , 
-Event type : action ; Time : 375503 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 378515 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 379371 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : setup ; Time : 379515 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher
-Event type : addBehaviour ; Time : 379537 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherSignWithDepartmentHead ; Behaviour class : ExampleWithOrganization.Teacher$TeacherSignWithDepartmentHead
-Event type : addBehaviour ; Time : 379538 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : action ; Time : 379538 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherSignWithDepartmentHead ; Behaviour class : ExampleWithOrganization.Teacher$TeacherSignWithDepartmentHead
-Event type : send ; Time : 379539 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : Bouzit
-Event type : action ; Time : 379540 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : action ; Time : 379540 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 379541 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T2 ; Receiver : Bouzit
-Event type : onTick ; Time : 381740 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 383226 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 384243 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadInnerStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadInnerStrategy
-Event type : send ; Time : 384245 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 384246 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 384247 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 384253 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 384254 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 384255 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 384256 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 384257 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 384258 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 384260 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : action ; Time : 384260 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 387256 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 387572 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 388160 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadInnerStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadInnerStrategy
-Event type : send ; Time : 388161 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 388162 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 388162 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 388162 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 388162 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 388162 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 388162 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 388162 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 388162 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 388162 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : action ; Time : 388162 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 390611 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 391161 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 392534 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadInnerStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadInnerStrategy
-Event type : send ; Time : 392534 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 392534 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 392534 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 392534 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 392534 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 392534 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 392534 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 392534 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 392534 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 392534 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : action ; Time : 392534 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 394421 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 395535 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 396285 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 396296 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : Proba
-Event type : send ; Time : 396316 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 398001 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 398001 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Guerram ; Receiver : Bouzit
-Event type : send ; Time : 398002 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 398003 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 398003 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 398003 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T2
-Event type : action ; Time : 398003 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 398003 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T2
-Event type : send ; Time : 398003 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : Bouzit
-Event type : receive ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T2 ; Receiver : Bouzit
-Event type : send ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 398003 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 398003 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 398003 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REJECT-PROPOSAL ; Sender : Bouzit ; Receiver : T2
-Event type : send ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 398003 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 398003 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : Bouzit ; Receiver : T2
-Event type : action ; Time : 398003 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 398018 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 398018 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 399298 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 399369 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 399369 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : Proba
-Event type : send ; Time : 399371 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Guerram ; Receiver : Bouzit
-Event type : send ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 399386 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 399386 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 399386 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T2
-Event type : action ; Time : 399386 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 399386 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T2
-Event type : send ; Time : 399386 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : Bouzit
-Event type : receive ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T2 ; Receiver : Bouzit
-Event type : send ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T2
-Event type : action ; Time : 399386 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 399386 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T2
-Event type : send ; Time : 399386 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : Bouzit
-Event type : receive ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T2 ; Receiver : Bouzit
-Event type : send ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REJECT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 399386 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : action ; Time : 399386 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 399386 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 399402 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 399402 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : onTick ; Time : 401009 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 402380 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 403286 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 403286 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : Proba
-Event type : send ; Time : 403288 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 403288 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 403288 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Guerram ; Receiver : Bouzit
-Event type : send ; Time : 403304 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : action ; Time : 403304 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 403304 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 403304 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : receive ; Time : 403304 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T1 ; Receiver : Bouzit
-Event type : send ; Time : 403304 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Bouzit ; Receiver : T2
-Event type : action ; Time : 403304 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 403304 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Bouzit ; Receiver : T2
-Event type : send ; Time : 403304 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : Bouzit
-Event type : receive ; Time : 403304 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : T2 ; Receiver : Bouzit
-Event type : send ; Time : 403319 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T2
-Event type : action ; Time : 403319 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 403319 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Bouzit ; Receiver : T2
-Event type : send ; Time : 403319 ; Agent name : T2 ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : Bouzit
-Event type : receive ; Time : 403319 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : T2 ; Receiver : Bouzit
-Event type : send ; Time : 403319 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REJECT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : send ; Time : 403319 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Bouzit ; Receiver : Guerram
-Event type : receive ; Time : 403319 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 403319 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : action ; Time : 403319 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : action ; Time : 403319 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 403319 ; Agent name : T1 ; Agent class : ExampleWithOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : Bouzit ; Receiver : T1
-Event type : onTick ; Time : 405301 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 406287 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 409321 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 409543 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 412870 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 414621 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 417858 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 419484 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 419516 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 419516 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : ASD
-Event type : send ; Time : 419531 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 420583 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 420584 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : send ; Time : 420585 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 420585 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 420585 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 420585 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 420585 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 420585 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 420600 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 420600 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 420600 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 420616 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 420616 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 420616 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 420616 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 420616 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 422519 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 423584 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 427105 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 428789 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 430869 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 432639 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 433910 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 436551 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 438579 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 439909 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 442743 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 443801 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 446219 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 448290 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 450458 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 452708 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 455766 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 456032 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 460444 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 460647 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 464219 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 466127 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 467784 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 470838 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 473649 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 476385 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 478206 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 479469 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 481769 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 483489 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 487096 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 488613 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 492261 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 493373 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 496792 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 498914 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 500431 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 504132 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 504245 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 507250 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 509840 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 511318 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 514246 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 516439 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 518358 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 520486 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 521566 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 524618 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 527347 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 528286 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 531377 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 533331 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 536480 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 538621 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 540996 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 543621 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 543621 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : ASD
-Event type : send ; Time : 543639 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 543639 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 543639 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : send ; Time : 543655 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 543655 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 543655 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 543655 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 543655 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 543655 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 543655 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 543670 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 543670 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 543670 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 543670 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 543670 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 543670 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 543670 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 544045 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 546622 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 547746 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 547746 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : ASD
-Event type : send ; Time : 547748 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 547764 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 547764 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : send ; Time : 547764 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 547764 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 547764 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 547764 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 547764 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 547764 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 547764 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 547779 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 547779 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 547779 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 547779 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 547779 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 547779 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 547779 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 550010 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 550747 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 553571 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadOuterStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadOuterStrategy
-Event type : search ; Time : 553571 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Searched service : ASD
-Event type : send ; Time : 553573 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : action ; Time : 553589 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 553589 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : REQUEST ; Sender : Bouzit ; Receiver : Guerram
-Event type : send ; Time : 553589 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 553589 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 553589 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 553589 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 553589 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 553589 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 553589 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 553589 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 553605 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 553605 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 553605 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 553605 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : receive ; Time : 553605 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Guerram ; Receiver : Bouzit
-Event type : action ; Time : 553605 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 555711 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 556572 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 560485 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 561870 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 564652 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 565120 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 568246 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 568873 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 572942 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : onTick ; Time : 573820 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
-Event type : action ; Time : 575434 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadInnerStrategy ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadInnerStrategy
-Event type : send ; Time : 575434 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 575436 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 575436 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : CFP ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 575436 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 575436 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : PROPOSE ; Sender : Benaboud ; Receiver : Guerram
-Event type : send ; Time : 575436 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : action ; Time : 575436 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Behaviour name : TeacherWaitingMsg ; Behaviour class : ExampleWithOrganization.Teacher$TeacherWaitingMsg
-Event type : receive ; Time : 575451 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : Guerram ; Receiver : Benaboud
-Event type : send ; Time : 575451 ; Agent name : Benaboud ; Agent class : ExampleWithOrganization.Teacher ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : receive ; Time : 575451 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Message type : INFORM ; Sender : Benaboud ; Receiver : Guerram
-Event type : action ; Time : 575451 ; Agent name : Guerram ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : HeadWaitingMsg ; Behaviour class : ExampleWithOrganization.DepartmentHead$HeadWaitingMsg
-Event type : onTick ; Time : 577199 ; Agent name : Bouzit ; Agent class : ExampleWithOrganization.DepartmentHead ; Behaviour name : Perception ; Behaviour class : ExampleWithOrganization.DepartmentHead$Perception
+Event type : setup ; Time : 28615 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher
+Event type : addBehaviour ; Time : 28630 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : addBehaviour ; Time : 28646 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : addBehaviour ; Time : 28646 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 28646 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : register ; Time : 28662 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Registerd services : Asd , Systeme , Reseau , 
+Event type : action ; Time : 28708 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 31719 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : setup ; Time : 35354 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher
+Event type : addBehaviour ; Time : 35385 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : addBehaviour ; Time : 35385 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : addBehaviour ; Time : 35385 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 35385 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : register ; Time : 35385 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Registerd services : Reseau , Systeme , 
+Event type : action ; Time : 35385 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 36555 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 38386 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : setup ; Time : 40402 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher
+Event type : addBehaviour ; Time : 40418 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : addBehaviour ; Time : 40418 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : addBehaviour ; Time : 40418 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 40434 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : register ; Time : 40434 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Registerd services : Analyse , 
+Event type : action ; Time : 40434 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 41822 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 41919 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 43435 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : setup ; Time : 45475 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher
+Event type : addBehaviour ; Time : 45491 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : addBehaviour ; Time : 45491 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : addBehaviour ; Time : 45491 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 45491 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : RegisterServices ; Behaviour class : ExampleWithoutOrganization.Teacher$RegisterServices
+Event type : register ; Time : 45491 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Registerd services : Algebre , 
+Event type : action ; Time : 45491 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 45678 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 46492 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 47210 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 48492 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 50187 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 51206 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 52328 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 53206 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 53764 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 53777 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Asd
+Event type : send ; Time : 53809 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T1
+Event type : action ; Time : 53810 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 53811 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T1
+Event type : send ; Time : 53815 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T2
+Event type : receive ; Time : 53816 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T2
+Event type : send ; Time : 53817 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T1
+Event type : action ; Time : 53817 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 53818 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T1
+Event type : send ; Time : 53819 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T2
+Event type : receive ; Time : 53820 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T2
+Event type : action ; Time : 53821 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 54275 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 54276 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Asd
+Event type : send ; Time : 54277 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 54277 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 54277 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 54277 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 54277 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 54277 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 54293 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 54293 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 54293 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 54293 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 54293 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 55557 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 55588 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 56765 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 57276 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 58225 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 58226 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Asd
+Event type : send ; Time : 58236 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 58555 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 58555 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 58556 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 58557 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 58558 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 58559 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 58559 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 58561 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 58562 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 58563 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 61229 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 61452 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 61556 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 62243 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Affectation ; Behaviour class : ExampleWithoutOrganization.Teacher$Affectation
+Event type : onTick ; Time : 62449 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 62824 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 62824 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Asd
+Event type : send ; Time : 62831 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T1
+Event type : action ; Time : 62832 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 62833 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T1
+Event type : send ; Time : 62834 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T2
+Event type : receive ; Time : 62836 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T2
+Event type : send ; Time : 62837 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T1
+Event type : action ; Time : 62838 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 62838 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T1
+Event type : send ; Time : 62840 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T2
+Event type : receive ; Time : 62841 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T2
+Event type : action ; Time : 62842 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 63021 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 63021 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Asd
+Event type : send ; Time : 63026 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 63027 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 63027 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 63028 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 63029 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 63029 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 63030 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 63030 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 63031 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 63032 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 63032 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 64029 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 64029 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Asd
+Event type : send ; Time : 64031 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T1
+Event type : action ; Time : 64031 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 64031 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T1
+Event type : send ; Time : 64031 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T3
+Event type : receive ; Time : 64031 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T3
+Event type : send ; Time : 64031 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T1
+Event type : action ; Time : 64031 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 64046 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T1
+Event type : send ; Time : 64046 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T3
+Event type : receive ; Time : 64046 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T3
+Event type : action ; Time : 64046 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 65248 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 65825 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 66032 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 67030 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 68844 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 70856 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 71293 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 71917 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 73465 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 74949 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 75106 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 77078 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 78783 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 79254 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 79968 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 80628 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 83241 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 83406 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 83406 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 83413 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 83414 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 83414 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 83415 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 83416 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 83416 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 83417 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 83418 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 83419 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 83420 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 83420 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 83912 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 84537 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 84757 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 84757 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 84764 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 85701 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 85701 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 85709 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 86361 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 86361 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 86362 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T3
+Event type : receive ; Time : 86363 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 86363 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 86363 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 86363 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 86363 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 86363 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 86363 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 86363 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 86363 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 86363 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T3
+Event type : receive ; Time : 86363 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T3
+Event type : action ; Time : 86363 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 86409 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 87458 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 87458 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 87460 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 87460 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 87460 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 87460 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 87460 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 87460 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 87772 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 88702 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 89362 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 89801 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 89801 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 89807 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 90243 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 90243 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 90251 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 90929 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 90929 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 90930 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 90930 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 90930 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : send ; Time : 90931 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : search ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : action ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 90931 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 90931 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T3
+Event type : receive ; Time : 90931 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 90931 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 90931 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 90947 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 90947 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 90947 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 90947 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 91298 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 91298 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 91300 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 91300 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 91300 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T3
+Event type : receive ; Time : 91300 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 91300 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 91300 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 91300 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 91300 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 91315 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 91315 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 91315 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 91315 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 92813 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 93930 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 94059 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 94059 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : action ; Time : 94064 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 94065 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 94065 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T3
+Event type : receive ; Time : 94066 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : FAILURE ; Sender : T4 ; Receiver : T3
+Event type : action ; Time : 94067 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 94067 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 95065 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Affectation ; Behaviour class : ExampleWithoutOrganization.Teacher$Affectation
+Event type : action ; Time : 95784 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 95784 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : send ; Time : 95786 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T3
+Event type : action ; Time : 95786 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 95786 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T3
+Event type : send ; Time : 95786 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T1
+Event type : receive ; Time : 95786 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T1
+Event type : send ; Time : 95786 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T3
+Event type : action ; Time : 95786 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 95786 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T3
+Event type : send ; Time : 95786 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T1
+Event type : receive ; Time : 95802 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T1
+Event type : action ; Time : 95802 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 97066 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 98066 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 98682 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 98682 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : action ; Time : 98688 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 98785 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 98835 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 98835 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : action ; Time : 98852 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 98852 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 98852 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 98852 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 98852 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 98852 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 99102 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 99102 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 99104 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 99104 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 99104 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 99104 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 99104 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 99104 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 99104 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 99104 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 99104 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : receive ; Time : 99104 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 99104 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : send ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T3
+Event type : action ; Time : 99244 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 99244 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T3
+Event type : send ; Time : 99244 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T1
+Event type : receive ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T1
+Event type : send ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T3
+Event type : action ; Time : 99244 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 99244 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T3
+Event type : send ; Time : 99244 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T1
+Event type : receive ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T1
+Event type : action ; Time : 99244 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 101693 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 101836 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 101990 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 101990 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : action ; Time : 101995 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 102103 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 102245 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 103314 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 103314 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : send ; Time : 103319 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T3
+Event type : action ; Time : 103319 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 103320 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 103320 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T4
+Event type : receive ; Time : 103321 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 103321 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T3
+Event type : action ; Time : 103322 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 103322 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 103323 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T4
+Event type : receive ; Time : 103323 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 103324 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 104530 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 104530 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : send ; Time : 104535 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T3
+Event type : action ; Time : 104536 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 104537 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T2 ; Receiver : T3
+Event type : send ; Time : 104537 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T2
+Event type : receive ; Time : 104538 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T2
+Event type : send ; Time : 104539 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T3
+Event type : action ; Time : 104540 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 104540 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T2 ; Receiver : T3
+Event type : send ; Time : 104542 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T2
+Event type : receive ; Time : 104543 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T2
+Event type : action ; Time : 104544 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 104901 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 104901 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Algebre
+Event type : send ; Time : 104903 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 104903 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 104903 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 104903 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 104903 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 104903 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : action ; Time : 104903 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 104903 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 104903 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T1
+Event type : receive ; Time : 104903 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 104903 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 104996 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 106315 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 106386 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 106386 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : action ; Time : 106391 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 106793 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 106793 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Analyse
+Event type : send ; Time : 106795 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T3
+Event type : action ; Time : 106795 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 106795 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 106795 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T4
+Event type : receive ; Time : 106795 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T3 ; Receiver : T4
+Event type : send ; Time : 106795 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T3
+Event type : action ; Time : 106795 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 106795 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T3
+Event type : send ; Time : 106795 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T4
+Event type : receive ; Time : 106795 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T3 ; Receiver : T4
+Event type : action ; Time : 106795 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 107543 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 107902 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 109399 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 109804 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 111852 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 113006 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 113203 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 114914 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 115725 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 116647 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 116759 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 118862 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 119983 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 121036 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 121549 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 124609 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 124729 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 125808 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 126249 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Affectation ; Behaviour class : ExampleWithoutOrganization.Teacher$Affectation
+Event type : onTick ; Time : 126797 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 127179 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 127179 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Reseau
+Event type : send ; Time : 127185 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T2
+Event type : action ; Time : 127186 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 127187 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T2
+Event type : send ; Time : 127188 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T1
+Event type : receive ; Time : 127189 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T1
+Event type : send ; Time : 127189 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T2
+Event type : action ; Time : 127190 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 127191 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T2
+Event type : send ; Time : 127192 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T1
+Event type : receive ; Time : 127193 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T1
+Event type : action ; Time : 127193 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 128852 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 129250 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 130180 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 130588 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 132143 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Affectation ; Behaviour class : ExampleWithoutOrganization.Teacher$Affectation
+Event type : onTick ; Time : 133038 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 133185 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 133197 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 133197 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Reseau
+Event type : send ; Time : 133203 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : onTick ; Time : 135144 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 135567 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 135567 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 135568 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 135568 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 135569 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 136717 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 136717 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 136717 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T4
+Event type : receive ; Time : 136717 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 136717 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 136717 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 136717 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 136717 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 136717 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 136717 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 136717 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 136717 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 136717 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 136717 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : T4 ; Receiver : T2
+Event type : onTick ; Time : 138568 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 138811 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 139718 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 141272 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Affectation ; Behaviour class : ExampleWithoutOrganization.Teacher$Affectation
+Event type : onTick ; Time : 141711 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 142253 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 142274 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 142274 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Systeme
+Event type : send ; Time : 142279 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 142280 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 142281 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 142281 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 142282 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 142283 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 142284 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 142284 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 142285 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T4
+Event type : receive ; Time : 142285 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 142286 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 142287 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 142287 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 142288 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 142289 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 142290 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 142290 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : action ; Time : 142291 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 142292 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REJECT-PROPOSAL ; Sender : T4 ; Receiver : T2
+Event type : onTick ; Time : 142730 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 144273 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 144478 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 144478 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Systeme
+Event type : send ; Time : 144484 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T1
+Event type : action ; Time : 145149 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 145150 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T1
+Event type : send ; Time : 145150 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REFUSE ; Sender : T1 ; Receiver : T3
+Event type : action ; Time : 145151 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : receive ; Time : 145151 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REFUSE ; Sender : T1 ; Receiver : T3
+Event type : search ; Time : 145151 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Systeme
+Event type : send ; Time : 145151 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T2
+Event type : action ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T2
+Event type : send ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T3
+Event type : receive ; Time : 145151 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T3
+Event type : send ; Time : 145151 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T2
+Event type : action ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T2
+Event type : send ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T3
+Event type : receive ; Time : 145151 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T3
+Event type : action ; Time : 145151 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : send ; Time : 145151 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T2
+Event type : action ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T1 ; Receiver : T2
+Event type : send ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T1
+Event type : receive ; Time : 145151 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T1
+Event type : send ; Time : 145151 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T2
+Event type : action ; Time : 145151 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 145167 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T1 ; Receiver : T2
+Event type : send ; Time : 145167 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T1
+Event type : receive ; Time : 145167 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T1
+Event type : action ; Time : 145167 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 145276 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 146445 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 146445 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Systeme
+Event type : send ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : action ; Time : 146447 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 146447 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T1
+Event type : send ; Time : 146447 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REFUSE ; Sender : T1 ; Receiver : T4
+Event type : receive ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REFUSE ; Sender : T1 ; Receiver : T4
+Event type : send ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 146447 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 146447 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 146447 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T4
+Event type : receive ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T4
+Event type : send ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T2
+Event type : action ; Time : 146447 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 146447 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T4 ; Receiver : T2
+Event type : send ; Time : 146447 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T4
+Event type : receive ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T4
+Event type : action ; Time : 146447 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 147492 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 147866 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 148029 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Strategy ; Behaviour class : ExampleWithoutOrganization.Teacher$Strategy
+Event type : search ; Time : 148029 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Searched service : Systeme
+Event type : send ; Time : 148038 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T1
+Event type : action ; Time : 148039 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 148039 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T1
+Event type : send ; Time : 148040 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REFUSE ; Sender : T1 ; Receiver : T3
+Event type : receive ; Time : 148040 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : REFUSE ; Sender : T1 ; Receiver : T3
+Event type : send ; Time : 148041 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T2
+Event type : onTick ; Time : 148150 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : action ; Time : 148867 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 148867 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : CFP ; Sender : T3 ; Receiver : T2
+Event type : send ; Time : 148868 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T3
+Event type : receive ; Time : 148868 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : PROPOSE ; Sender : T2 ; Receiver : T3
+Event type : send ; Time : 148869 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T2
+Event type : action ; Time : 148870 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : receive ; Time : 148870 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : ACCEPT-PROPOSAL ; Sender : T3 ; Receiver : T2
+Event type : send ; Time : 148871 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T3
+Event type : receive ; Time : 148872 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Message type : INFORM ; Sender : T2 ; Receiver : T3
+Event type : action ; Time : 148872 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : WaitingMsg ; Behaviour class : ExampleWithoutOrganization.Teacher$WaitingMsg
+Event type : onTick ; Time : 149446 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 151031 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 151883 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 152539 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 153718 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 154336 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 155773 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 157812 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 158591 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 159278 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 160000 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 162113 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 162535 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 163475 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 163505 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 166342 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 166764 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 167461 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 168140 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 170874 ; Agent name : T4 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 171240 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 171746 ; Agent name : T2 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 173403 ; Agent name : T3 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
+Event type : onTick ; Time : 174920 ; Agent name : T1 ; Agent class : ExampleWithoutOrganization.Teacher ; Behaviour name : Perception ; Behaviour class : ExampleWithoutOrganization.Teacher$Perception
